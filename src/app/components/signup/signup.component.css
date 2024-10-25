@@ -1,0 +1,44 @@
+.login-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 90vh;
+    width: 100vw;
+  }
+  
+  .vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-container {
+    /* background-color: #ffd867; */
+    /* background-color: #f3d490; */
+  }
+  .logo-container img {
+    max-width: 600px;
+  }
+  
+  .btn-primary {
+    background-color: #003489;
+    border: #003489;
+  }
+  a {
+    color: #003489;
+  }
+  @media (max-width: 575.98px) {
+    .login-container {
+      grid-template-columns: 100%;
+    }
+    .logo-container {
+      display: none;
+    }
+  }
+  .alert {
+    padding-top: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
